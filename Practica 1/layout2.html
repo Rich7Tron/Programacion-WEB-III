@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout2</title>
+    <style>
+        header{
+            padding: 20px;
+            background-color: red;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-style: groove;
+            justify-content: space-between;
+            display: flex;
+        }
+        article a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+            color: black;
+            margin: 0.4px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 20%;
+        }
+        article a:hover{
+            font-size: 25px;
+            transform: scale(0.1);
+            transition: 1s;
+            color: whitesmoke;
+            border-radius: 50%;
+        }
+        .content{
+            text-align: left;
+            font-size: 20px;
+            font-style: italic;
+            color: purple;
+            background-color: yellow;
+            border-style: dotted;
+            padding: 20px;
+        }
+        .footer{
+            background-color: greenyellow;
+            padding: 20px;
+            border-style: double;
+            border-width: 20px;
+            text-align: center;
+            text-decoration: solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+        <article>
+            <a href="#">enlace1</a>
+            <a href="#">enlace2</a>
+            <a href="#">enlace3</a>
+        </article>
+    </header>
+    <div class="content">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates deleniti sed odit asperiores nihil. Eius explicabo non vero harum sapiente nobis animi aliquam molestias adipisci. Iure sit temporibus hic repellendus.</p>
+    </div>
+    <footer class="footer">
+        <h2>Derechos reservados</h2>
+        <h2>pie de pagina</h2>
+    </footer>
+</body>
+</html>
